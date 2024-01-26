@@ -1,5 +1,5 @@
 <template>
- <img/>
-  <router-link to="/">Home</router-link> |
-  <router-link to="/about">About</router-link>
+  <img />
+  <router-link to="/">Portfolio</router-link> |
+  <router-link to="/about">Über mich</router-link>
 </template>
