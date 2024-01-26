@@ -1,17 +1,24 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import AboutView from "../views/AboutView";
+import AboutView from "../views/AboutView.vue";
+import ImpressumsView from "../views/ImpressumsView.vue";
 
 const routes = [
   {
     path: "/",
-    name: "home",
+    name: "portfolio",
     component: HomeView,
   },
   {
-    path: "/about",
-    name: "about",
+    path: "/ueber-mich",
+    name: "über mich",
     component: AboutView,
+  },
+
+  {
+    path: "/impressum",
+    name: "impressum",
+    component: ImpressumsView,
   },
 ];
 
